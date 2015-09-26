@@ -4,7 +4,8 @@
     "description": "Various tests of the two products to test results",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "postinstall": "./node_modules/bower/bin/bower install"
     },
     "author": "Angel S. Moreno <angelxmoreno@gmail.com> (https://angelxmoreno.github.io/)",
     "license": "MIT",
