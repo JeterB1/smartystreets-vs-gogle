@@ -1,23 +1,24 @@
 {
-  "name": "smartystreets-vs-googlemaps",
-  "version": "0.0.0",
-  "authors": [
-    "Angel S. Moreno <angelxmoreno@gmail.com>"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "angular": "~1.4.6",
-    "angular-sanitize": "~1.4.6",
-    "angular-strap": "~2.3.3",
-    "angular-ui-router": "~0.2.15",
-    "angularUtils-pagination": "angular-utils-pagination#~0.8.4",
-    "bootstrap": "~3.3.5"
-  }
+    "name": "smartystreets-vs-googlemaps",
+    "version": "1.0.0",
+    "description": "Various tests of the two products to test results",
+    "authors": [
+        "Angel S. Moreno <angelxmoreno@gmail.com>"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular": "~1.4.6",
+        "angular-sanitize": "~1.4.6",
+        "angular-strap": "~2.3.3",
+        "angular-ui-router": "~0.2.15",
+        "angularUtils-pagination": "angular-utils-pagination#~0.8.4",
+        "bootstrap": "~3.3.5"
+    }
 }

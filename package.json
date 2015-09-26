@@ -1,30 +1,30 @@
 {
-  "name": "smartystreets-vs-googlemaps",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "author": "Angel S. Moreno <angelxmoreno@gmail.com> (https://angelxmoreno.github.io/)",
-  "license": "ISC",
-  "cacheDirectories": [
-    "node_modules",
-    "bower_components"
-  ],
-  "engines": {
-    "node": "0.12.7",
-    "npm": "2.12.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@bitbucket.org:angelxmoreno/instalist-api.git"
-  },
-  "dependencies": {
-    "bower": "^1.5.3",
-    "dotenv": "^1.2.0",
-    "errorhandler": "^1.4.2",
-    "express": "^4.13.3",
-    "node-request-caching": "0.0.1"
-  }
+    "name": "smartystreets-vs-googlemaps",
+    "version": "1.0.0",
+    "description": "Various tests of the two products to test results",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Angel S. Moreno <angelxmoreno@gmail.com> (https://angelxmoreno.github.io/)",
+    "license": "MIT",
+    "cacheDirectories": [
+        "node_modules",
+        "bower_components"
+    ],
+    "engines": {
+        "node": "0.12.7",
+        "npm": "2.12.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@bitbucket.org:angelxmoreno/instalist-api.git"
+    },
+    "dependencies": {
+        "bower": "^1.5.3",
+        "dotenv": "^1.2.0",
+        "errorhandler": "^1.4.2",
+        "express": "^4.13.3",
+        "node-request-caching": "0.0.1"
+    }
 }
