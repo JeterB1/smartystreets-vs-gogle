@@ -1,0 +1,25 @@
+<div class="well well-sm">
+    <h1>Suggestion tool</h1>
+    <p class="lead">
+        The following compares the results from 
+        <a href="https://smartystreets.com/docs/autocomplete" target="_ext">SmartyStreets' suggestion tool</a>
+        to <a href="https://developers.google.com/maps/documentation/geocoding/intro" target="_ext">Google's Geocoding API</a>
+        <input class="form-control input-lg" placeholder="Enter an address" ng-model="user_address" ng-change="updateAddresses()" />
+    </p>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h3>Google Geocoding</h3>
+        <address ng-repeat="google_result in google_results">
+            {{google_result.address}}
+        </address>
+    </div>
+        <div class="col-md-6">
+        <h3>SmartyStreets' Suggestion</h3>
+        <address ng-repeat="smartystreets_result in smartystreets_results">
+            {{smartystreets_result.address}}
+        </address>
+    </div>
+
+</div>
